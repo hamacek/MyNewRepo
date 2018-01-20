@@ -1,0 +1,6 @@
+projectKey=Refactor17212310115602824455
+serverUrl=http://localhost:9000
+serverVersion=6.6.0.32724
+dashboardUrl=http://localhost:9000/dashboard/index/Refactor17212310115602824455
+ceTaskId=AWEVGjfOOmNU_2PWt6JG
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWEVGjfOOmNU_2PWt6JG

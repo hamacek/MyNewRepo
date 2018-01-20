@@ -1,0 +1,7 @@
+NAME: LAZC1
+POSITION: CC:::C:AnotherClass
+NAME: LAZC2
+POSITION: CC:::C:MainClass
+NAME: LM1
+PATH: unit/LAZC2/class/block/function
+POSITION: CC:::C:MainClass::M:main
