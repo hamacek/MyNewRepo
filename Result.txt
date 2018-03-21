@@ -1,0 +1,4 @@
+NAME: LAZC1
+POSITION: CC:::C:AnotherClass
+NAME: LAZC2
+POSITION: CC:::C:MainClass

@@ -1,0 +1,239 @@
+{
+    "p": 1,
+    "total": 8,
+    "components": [
+        {
+            "path": "MyTestProject/src/AnotherClass.java",
+            "organization": "default-organization",
+            "qualifier": "FIL",
+            "name": "AnotherClass.java",
+            "uuid": "AWJJ2WXbXPkHgB9853Wm",
+            "key": "Refactor3010054924124902935:MyTestProject/src/AnotherClass.java",
+            "enabled": true,
+            "longName": "MyTestProject/src/AnotherClass.java"
+        },
+        {
+            "organization": "default-organization",
+            "qualifier": "TRK",
+            "name": "Refactor3010054924124902935",
+            "uuid": "AWJJ2V-qwWqfXdDuwBq7",
+            "key": "Refactor3010054924124902935",
+            "enabled": true,
+            "longName": "Refactor3010054924124902935"
+        },
+        {
+            "path": "MyTestProject/src/MainClass.java",
+            "organization": "default-organization",
+            "qualifier": "FIL",
+            "name": "MainClass.java",
+            "uuid": "AWJJ2WXbXPkHgB9853Wl",
+            "key": "Refactor3010054924124902935:MyTestProject/src/MainClass.java",
+            "enabled": true,
+            "longName": "MyTestProject/src/MainClass.java"
+        }
+    ],
+    "ps": 100,
+    "paging": {
+        "total": 8,
+        "pageIndex": 1,
+        "pageSize": 100
+    },
+    "issues": [
+        {
+            "severity": "MINOR",
+            "updateDate": "2018-03-21T19:36:39+0100",
+            "author": "xhamacek@stuba.sk",
+            "rule": "squid:S1220",
+            "project": "Refactor3010054924124902935",
+            "effort": "10min",
+            "message": "Move this file to a named package.",
+            "creationDate": "2018-01-20T18:37:08+0100",
+            "type": "CODE_SMELL",
+            "tags": ["convention"],
+            "component": "Refactor3010054924124902935:MyTestProject/src/AnotherClass.java",
+            "flows": [],
+            "organization": "default-organization",
+            "debt": "10min",
+            "key": "AWJJ2WbjXPkHgB9853Ws",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2018-03-21T19:36:39+0100",
+            "line": 2,
+            "author": "xhamacek@stuba.sk",
+            "rule": "squid:S1118",
+            "project": "Refactor3010054924124902935",
+            "effort": "30min",
+            "message": "Add a private constructor to hide the implicit public one.",
+            "creationDate": "2018-01-20T18:37:08+0100",
+            "type": "CODE_SMELL",
+            "tags": ["design"],
+            "component": "Refactor3010054924124902935:MyTestProject/src/AnotherClass.java",
+            "flows": [],
+            "organization": "default-organization",
+            "textRange": {
+                "endLine": 2,
+                "endOffset": 25,
+                "startOffset": 13,
+                "startLine": 2
+            },
+            "debt": "30min",
+            "key": "AWJJ2WbjXPkHgB9853Wt",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2018-03-21T19:36:39+0100",
+            "line": 4,
+            "author": "xhamacek@stuba.sk",
+            "rule": "squid:S00100",
+            "project": "Refactor3010054924124902935",
+            "effort": "5min",
+            "message": "Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+            "creationDate": "2018-01-20T18:37:08+0100",
+            "type": "CODE_SMELL",
+            "tags": ["convention"],
+            "component": "Refactor3010054924124902935:MyTestProject/src/AnotherClass.java",
+            "flows": [],
+            "organization": "default-organization",
+            "textRange": {
+                "endLine": 4,
+                "endOffset": 25,
+                "startOffset": 20,
+                "startLine": 4
+            },
+            "debt": "5min",
+            "key": "AWJJ2WbjXPkHgB9853Wu",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2018-03-21T19:36:39+0100",
+            "line": 5,
+            "author": "xhamacek@stuba.sk",
+            "rule": "squid:S106",
+            "project": "Refactor3010054924124902935",
+            "effort": "10min",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "creationDate": "2018-01-20T18:37:08+0100",
+            "type": "CODE_SMELL",
+            "tags": [
+                "bad-practice",
+                "cert"
+            ],
+            "component": "Refactor3010054924124902935:MyTestProject/src/AnotherClass.java",
+            "flows": [],
+            "organization": "default-organization",
+            "textRange": {
+                "endLine": 5,
+                "endOffset": 12,
+                "startOffset": 2,
+                "startLine": 5
+            },
+            "debt": "10min",
+            "key": "AWJJ2WbjXPkHgB9853Wr",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2018-03-21T19:36:39+0100",
+            "author": "xhamacek@stuba.sk",
+            "rule": "squid:S1220",
+            "project": "Refactor3010054924124902935",
+            "effort": "10min",
+            "message": "Move this file to a named package.",
+            "creationDate": "2017-04-02T21:09:47+0200",
+            "type": "CODE_SMELL",
+            "tags": ["convention"],
+            "component": "Refactor3010054924124902935:MyTestProject/src/MainClass.java",
+            "flows": [],
+            "organization": "default-organization",
+            "debt": "10min",
+            "key": "AWJJ2WbLXPkHgB9853Wo",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2018-03-21T19:36:39+0100",
+            "line": 5,
+            "author": "xhamacek@stuba.sk",
+            "rule": "squid:S1481",
+            "project": "Refactor3010054924124902935",
+            "effort": "5min",
+            "message": "Remove this unused \"x\" local variable.",
+            "creationDate": "2017-04-02T21:09:47+0200",
+            "type": "CODE_SMELL",
+            "tags": ["unused"],
+            "component": "Refactor3010054924124902935:MyTestProject/src/MainClass.java",
+            "flows": [],
+            "organization": "default-organization",
+            "textRange": {
+                "endLine": 5,
+                "endOffset": 7,
+                "startOffset": 6,
+                "startLine": 5
+            },
+            "debt": "5min",
+            "key": "AWJJ2WbLXPkHgB9853Wp",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2018-03-21T19:36:39+0100",
+            "line": 5,
+            "author": "xhamacek@stuba.sk",
+            "rule": "squid:S1854",
+            "project": "Refactor3010054924124902935",
+            "effort": "15min",
+            "message": "Remove this useless assignment to local variable \"x\".",
+            "creationDate": "2017-04-02T21:09:47+0200",
+            "type": "CODE_SMELL",
+            "tags": [
+                "cert",
+                "cwe",
+                "unused"
+            ],
+            "component": "Refactor3010054924124902935:MyTestProject/src/MainClass.java",
+            "flows": [],
+            "organization": "default-organization",
+            "textRange": {
+                "endLine": 5,
+                "endOffset": 11,
+                "startOffset": 8,
+                "startLine": 5
+            },
+            "debt": "15min",
+            "key": "AWJJ2WbLXPkHgB9853Wq",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2018-03-21T19:36:39+0100",
+            "line": 6,
+            "author": "xhamacek@stuba.sk",
+            "rule": "squid:S106",
+            "project": "Refactor3010054924124902935",
+            "effort": "10min",
+            "message": "Replace this use of System.out or System.err by a logger.",
+            "creationDate": "2017-02-27T23:07:34+0100",
+            "type": "CODE_SMELL",
+            "tags": [
+                "bad-practice",
+                "cert"
+            ],
+            "component": "Refactor3010054924124902935:MyTestProject/src/MainClass.java",
+            "flows": [],
+            "organization": "default-organization",
+            "textRange": {
+                "endLine": 6,
+                "endOffset": 12,
+                "startOffset": 2,
+                "startLine": 6
+            },
+            "debt": "10min",
+            "key": "AWJJ2WbLXPkHgB9853Wn",
+            "status": "OPEN"
+        }
+    ]
+}
